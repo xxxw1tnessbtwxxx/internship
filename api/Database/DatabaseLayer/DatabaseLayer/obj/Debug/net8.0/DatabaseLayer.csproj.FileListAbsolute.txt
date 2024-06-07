@@ -12,3 +12,4 @@ D:\Development\internship\api\Database\DatabaseLayer\DatabaseLayer\obj\Debug\net
 D:\Development\internship\api\Database\DatabaseLayer\DatabaseLayer\obj\Debug\net8.0\DatabaseLayer.pdb
 D:\Development\internship\api\Database\DatabaseLayer\DatabaseLayer\obj\Debug\net8.0\DatabaseLayer.genruntimeconfig.cache
 D:\Development\internship\api\Database\DatabaseLayer\DatabaseLayer\obj\Debug\net8.0\ref\DatabaseLayer.dll
+D:\Development\internship\api\Database\DatabaseLayer\DatabaseLayer\obj\Debug\net8.0\DatabaseLayer.sourcelink.json

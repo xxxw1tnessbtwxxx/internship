@@ -3,12 +3,25 @@
   "WorkspaceRootPath": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4532B22F-B286-43DB-A074-3FA83B3204F7}|..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\tradepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4532B22F-B286-43DB-A074-3FA83B3204F7}|..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4532B22F-B286-43DB-A074-3FA83B3204F7}|..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\tradepointconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|d:\\development\\internship\\api\\server\\timecontrollerapi\\timecontrollerapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|solutionrelative:timecontrollerapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|d:\\development\\internship\\api\\server\\timecontrollerapi\\timecontrollerapi\\classes\\signinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|solutionrelative:timecontrollerapi\\classes\\signinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|d:\\development\\internship\\api\\server\\timecontrollerapi\\timecontrollerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|solutionrelative:timecontrollerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|d:\\development\\internship\\api\\server\\timecontrollerapi\\timecontrollerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|solutionrelative:timecontrollerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|d:\\development\\internship\\api\\server\\timecontrollerapi\\timecontrollerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +30,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|d:\\development\\internship\\api\\server\\timecontrollerapi\\timecontrollerapi\\timecontrollerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|solutionrelative:timecontrollerapi\\timecontrollerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|d:\\development\\internship\\api\\server\\timecontrollerapi\\timecontrollerapi\\classes\\signinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{150611D6-8223-4DA8-A2D2-4226B0A640B1}|TimeControllerAPI\\TimeControllerAPI.csproj|solutionrelative:timecontrollerapi\\classes\\signinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +43,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +52,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
+              "RelativeToolTip": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:47:17.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TradePointConfiguration.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
+              "RelativeToolTip": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:47:11.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TradePoint.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
+              "RelativeDocumentMoniker": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
+              "RelativeToolTip": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:46:57.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TimeControllerAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TimeControllerAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T15:44:40.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TimeControllerAPI\\appsettings.json",
+              "ToolTip": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\appsettings.json",
+              "RelativeToolTip": "TimeControllerAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T15:34:46.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SignInRequest.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Classes\\SignInRequest.cs",
               "RelativeDocumentMoniker": "TimeControllerAPI\\Classes\\SignInRequest.cs",
@@ -42,47 +124,45 @@
               "RelativeToolTip": "TimeControllerAPI\\Classes\\SignInRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T13:46:47.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T13:46:47.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "TimeControllerAPI\\Controllers\\AuthenticationController.cs",
               "ToolTip": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "TimeControllerAPI\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwCIAAACnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T13:34:42.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Program.cs",
               "RelativeDocumentMoniker": "TimeControllerAPI\\Program.cs",
               "ToolTip": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Program.cs",
               "RelativeToolTip": "TimeControllerAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T13:34:23.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TimeControllerAPI.http",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\TimeControllerAPI.http",
               "RelativeDocumentMoniker": "TimeControllerAPI\\TimeControllerAPI.http",
               "ToolTip": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\TimeControllerAPI.http",
               "RelativeToolTip": "TimeControllerAPI\\TimeControllerAPI.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-06-06T13:34:13.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T13:34:13.651Z"
             },
             {
               "$type": "Bookmark",

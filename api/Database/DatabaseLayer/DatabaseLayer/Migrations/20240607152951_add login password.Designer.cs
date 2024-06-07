@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DatabaseLayer.Migrations
 {
     [DbContext(typeof(TimeControllerContext))]
-    [Migration("20240607054721_Init")]
-    partial class Init
+    [Migration("20240607152951_add login password")]
+    partial class addloginpassword
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,30 +31,56 @@ namespace DatabaseLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<int?>("GenderId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Login")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Patronymic")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Surname")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid>("TradePointId")
+                    b.Property<Guid?>("TradePointId")
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("GenderId");
+
                     b.HasIndex("TradePointId");
 
                     b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("DatabaseLayer.Database.Models.Gender", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("GenderName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Genders");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.TradePoint", b =>
@@ -63,7 +89,7 @@ namespace DatabaseLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("PointName")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -74,13 +100,22 @@ namespace DatabaseLayer.Migrations
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.Employee", b =>
                 {
+                    b.HasOne("DatabaseLayer.Database.Models.Gender", "Gender")
+                        .WithMany("Employees")
+                        .HasForeignKey("GenderId");
+
                     b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
                         .WithMany("Employees")
-                        .HasForeignKey("TradePointId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TradePointId");
+
+                    b.Navigation("Gender");
 
                     b.Navigation("TradePoint");
+                });
+
+            modelBuilder.Entity("DatabaseLayer.Database.Models.Gender", b =>
+                {
+                    b.Navigation("Employees");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.TradePoint", b =>

@@ -10,11 +10,10 @@ namespace DatabaseLayer.Database
 {
     public class TimeControllerContext: DbContext
     {
-
         
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Gender> Genders { get; set; }
         public DbSet<TradePoint> TradePoints { get; set; }
-
         public TimeControllerContext()
         {
 

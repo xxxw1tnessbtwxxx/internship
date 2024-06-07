@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeControllerAPI", "TimeControllerAPI\TimeControllerAPI.csproj", "{150611D6-8223-4DA8-A2D2-4226B0A640B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeControllerAPI", "TimeControllerAPI\TimeControllerAPI.csproj", "{150611D6-8223-4DA8-A2D2-4226B0A640B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseLayer", "..\..\Database\DatabaseLayer\DatabaseLayer\DatabaseLayer.csproj", "{4532B22F-B286-43DB-A074-3FA83B3204F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{150611D6-8223-4DA8-A2D2-4226B0A640B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{150611D6-8223-4DA8-A2D2-4226B0A640B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{150611D6-8223-4DA8-A2D2-4226B0A640B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4532B22F-B286-43DB-A074-3FA83B3204F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4532B22F-B286-43DB-A074-3FA83B3204F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4532B22F-B286-43DB-A074-3FA83B3204F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4532B22F-B286-43DB-A074-3FA83B3204F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

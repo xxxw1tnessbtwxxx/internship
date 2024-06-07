@@ -9,9 +9,12 @@ namespace DatabaseLayer.Database.Models.Configuration
         {
             builder.HasKey(t => t.Id);
 
+            // Employee conf
             builder.HasMany(t => t.Employees)
                 .WithOne(e => e.TradePoint)
-                .HasForeignKey(e => e.TradePointId);
+                .HasForeignKey(e => e.TradePointId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
+
 }
