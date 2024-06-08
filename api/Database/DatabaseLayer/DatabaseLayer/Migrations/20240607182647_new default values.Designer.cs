@@ -3,6 +3,7 @@ using System;
 using DatabaseLayer.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DatabaseLayer.Migrations
 {
     [DbContext(typeof(TimeControllerContext))]
-    partial class TimeControllerContextModelSnapshot : ModelSnapshot
+    [Migration("20240607182647_new default values")]
+    partial class newdefaultvalues
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -104,16 +107,16 @@ namespace DatabaseLayer.Migrations
                     b.ToTable("Genders");
                 });
 
-            modelBuilder.Entity("DatabaseLayer.Database.Models.OpenedShift", b =>
+            modelBuilder.Entity("DatabaseLayer.Database.Models.OpenedShifts", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<DateTime?>("CloseDate")
+                    b.Property<DateTime?>("TimeClose")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime>("OpenDate")
+                    b.Property<DateTime>("TimeOpen")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<Guid>("TradePointId")
@@ -121,28 +124,31 @@ namespace DatabaseLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TradePointId");
+                    b.HasIndex("TradePointId")
+                        .IsUnique();
 
                     b.ToTable("OpenedShifts");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.ShiftStory", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
+                        .HasColumnType("integer");
 
-                    b.Property<DateTime>("ComeDate")
-                        .HasColumnType("timestamp with time zone");
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<Guid>("EmployeeId")
                         .HasColumnType("uuid");
 
-                    b.Property<DateTime?>("LeaveDate")
-                        .HasColumnType("timestamp with time zone");
-
                     b.Property<Guid>("TradePointId")
                         .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("WorkEnd")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("WorkStart")
+                        .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 
@@ -198,11 +204,11 @@ namespace DatabaseLayer.Migrations
                     b.Navigation("TradePoint");
                 });
 
-            modelBuilder.Entity("DatabaseLayer.Database.Models.OpenedShift", b =>
+            modelBuilder.Entity("DatabaseLayer.Database.Models.OpenedShifts", b =>
                 {
                     b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
-                        .WithMany()
-                        .HasForeignKey("TradePointId")
+                        .WithOne("OpenedShift")
+                        .HasForeignKey("DatabaseLayer.Database.Models.OpenedShifts", "TradePointId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -241,6 +247,8 @@ namespace DatabaseLayer.Migrations
             modelBuilder.Entity("DatabaseLayer.Database.Models.TradePoint", b =>
                 {
                     b.Navigation("Employees");
+
+                    b.Navigation("OpenedShift");
                 });
 #pragma warning restore 612, 618
         }

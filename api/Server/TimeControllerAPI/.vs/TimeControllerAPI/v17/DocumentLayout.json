@@ -3,7 +3,13 @@
   "WorkspaceRootPath": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4532B22F-B286-43DB-A074-3FA83B3204F7}|..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\shiftstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4532B22F-B286-43DB-A074-3FA83B3204F7}|..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\tradepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4532B22F-B286-43DB-A074-3FA83B3204F7}|..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\openedshifts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4532B22F-B286-43DB-A074-3FA83B3204F7}|..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -43,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,7 +57,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "OpenedShifts.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\OpenedShifts.cs",
+              "RelativeDocumentMoniker": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\OpenedShifts.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\OpenedShifts.cs",
+              "RelativeToolTip": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\OpenedShifts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:26:13.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShiftStory.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\ShiftStory.cs",
+              "RelativeDocumentMoniker": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\ShiftStory.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\ShiftStory.cs",
+              "RelativeToolTip": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\ShiftStory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:25:42.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
@@ -59,12 +91,11 @@
               "RelativeToolTip": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:47:17.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T15:47:17.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TradePointConfiguration.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
               "RelativeDocumentMoniker": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
@@ -72,25 +103,24 @@
               "RelativeToolTip": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:47:11.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T15:47:11.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TradePoint.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
               "RelativeDocumentMoniker": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
               "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
               "RelativeToolTip": "..\\..\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T15:46:57.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TimeControllerAPI\\Properties\\launchSettings.json",
@@ -98,12 +128,11 @@
               "RelativeToolTip": "TimeControllerAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T15:44:40.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T15:44:40.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\appsettings.json",
               "RelativeDocumentMoniker": "TimeControllerAPI\\appsettings.json",
@@ -111,12 +140,11 @@
               "RelativeToolTip": "TimeControllerAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T15:34:46.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T15:34:46.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "SignInRequest.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Classes\\SignInRequest.cs",
               "RelativeDocumentMoniker": "TimeControllerAPI\\Classes\\SignInRequest.cs",
@@ -128,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "TimeControllerAPI\\Controllers\\AuthenticationController.cs",
@@ -136,12 +164,11 @@
               "RelativeToolTip": "TimeControllerAPI\\Controllers\\AuthenticationController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAuwCIAAACnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T13:34:42.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T13:34:42.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\Program.cs",
               "RelativeDocumentMoniker": "TimeControllerAPI\\Program.cs",
@@ -149,12 +176,11 @@
               "RelativeToolTip": "TimeControllerAPI\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T13:34:23.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T13:34:23.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "TimeControllerAPI.http",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Server\\TimeControllerAPI\\TimeControllerAPI\\TimeControllerAPI.http",
               "RelativeDocumentMoniker": "TimeControllerAPI\\TimeControllerAPI.http",

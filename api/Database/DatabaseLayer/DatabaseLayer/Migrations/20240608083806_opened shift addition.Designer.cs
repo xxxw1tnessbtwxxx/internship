@@ -3,6 +3,7 @@ using System;
 using DatabaseLayer.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DatabaseLayer.Migrations
 {
     [DbContext(typeof(TimeControllerContext))]
-    partial class TimeControllerContextModelSnapshot : ModelSnapshot
+    [Migration("20240608083806_opened shift addition")]
+    partial class openedshiftaddition
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -104,55 +107,6 @@ namespace DatabaseLayer.Migrations
                     b.ToTable("Genders");
                 });
 
-            modelBuilder.Entity("DatabaseLayer.Database.Models.OpenedShift", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTime?>("CloseDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<DateTime>("OpenDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("TradePointId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("TradePointId");
-
-                    b.ToTable("OpenedShifts");
-                });
-
-            modelBuilder.Entity("DatabaseLayer.Database.Models.ShiftStory", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTime>("ComeDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("EmployeeId")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTime?>("LeaveDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("TradePointId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("EmployeeId");
-
-                    b.HasIndex("TradePointId");
-
-                    b.ToTable("ShiftStories");
-                });
-
             modelBuilder.Entity("DatabaseLayer.Database.Models.TradePoint", b =>
                 {
                     b.Property<Guid>("Id")
@@ -194,36 +148,6 @@ namespace DatabaseLayer.Migrations
                         .HasForeignKey("TradePointId");
 
                     b.Navigation("Gender");
-
-                    b.Navigation("TradePoint");
-                });
-
-            modelBuilder.Entity("DatabaseLayer.Database.Models.OpenedShift", b =>
-                {
-                    b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
-                        .WithMany()
-                        .HasForeignKey("TradePointId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("TradePoint");
-                });
-
-            modelBuilder.Entity("DatabaseLayer.Database.Models.ShiftStory", b =>
-                {
-                    b.HasOne("DatabaseLayer.Database.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
-                        .WithMany()
-                        .HasForeignKey("TradePointId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
 
                     b.Navigation("TradePoint");
                 });

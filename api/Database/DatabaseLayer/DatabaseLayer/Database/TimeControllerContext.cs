@@ -11,6 +11,9 @@ namespace DatabaseLayer.Database
     public class TimeControllerContext: DbContext
     {
         
+        public DbSet<OpenedShift> OpenedShifts { get; set; }
+        public DbSet<ShiftStory> ShiftStories { get; set; }
+        public DbSet<Access> Accesses { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Gender> Genders { get; set; }
         public DbSet<TradePoint> TradePoints { get; set; }

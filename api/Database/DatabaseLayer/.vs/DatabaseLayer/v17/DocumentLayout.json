@@ -3,8 +3,64 @@
   "WorkspaceRootPath": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\migrations\\20240608084517_shift story dbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\migrations\\20240608084517_shift story dbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\timecontrollercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\timecontrollercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\tradepointconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\tradepointconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\shiftstoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\shiftstoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\openedshiftconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\openedshiftconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\openedshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\openedshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\migrations\\20240608084002_opened shift datetime without time zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\migrations\\20240608084002_opened shift datetime without time zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\genderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\genderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\shiftstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\shiftstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\tradepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\tradepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\accessesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\accessesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\migrations\\20240608083857_opened shift addition fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\migrations\\20240608083857_opened shift addition fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\migrations\\20240608083806_opened shift addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\migrations\\20240608083806_opened shift addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\access.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\access.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,30 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\genderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\genderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\tradepointconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\tradepointconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\tradepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\tradepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\access.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\access.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|d:\\development\\internship\\api\\database\\databaselayer\\databaselayer\\database\\models\\configuration\\accessesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B068EFFC-8746-4C23-8562-CBE88DF12100}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\database\\models\\configuration\\accessesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,72 +86,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Access.cs",
-              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Access.cs",
-              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Access.cs",
-              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Access.cs",
-              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Access.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "DocumentIndex": 0,
+              "Title": "20240608084517_shift story dbset.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Migrations\\20240608084517_shift story dbset.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Migrations\\20240608084517_shift story dbset.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Migrations\\20240608084517_shift story dbset.cs",
+              "RelativeToolTip": "DatabaseLayer\\Migrations\\20240608084517_shift story dbset.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:01:32.358Z",
+              "WhenOpened": "2024-06-08T08:45:18.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AccessesConfiguration.cs",
-              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\AccessesConfiguration.cs",
-              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Configuration\\AccessesConfiguration.cs",
-              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\AccessesConfiguration.cs",
-              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Configuration\\AccessesConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "DocumentIndex": 6,
+              "Title": "20240608084002_opened shift datetime without time zone.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Migrations\\20240608084002_opened shift datetime without time zone.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Migrations\\20240608084002_opened shift datetime without time zone.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Migrations\\20240608084002_opened shift datetime without time zone.cs",
+              "RelativeToolTip": "DatabaseLayer\\Migrations\\20240608084002_opened shift datetime without time zone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:00:25.132Z",
+              "WhenOpened": "2024-06-08T08:44:20.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GenderConfiguration.cs",
-              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\GenderConfiguration.cs",
-              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Configuration\\GenderConfiguration.cs",
-              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\GenderConfiguration.cs",
-              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Configuration\\GenderConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "ShiftStoryConfiguration.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\ShiftStoryConfiguration.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Configuration\\ShiftStoryConfiguration.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\ShiftStoryConfiguration.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Configuration\\ShiftStoryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:52:17.789Z",
+              "WhenOpened": "2024-06-08T08:43:49.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShiftStory.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\ShiftStory.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\ShiftStory.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\ShiftStory.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\ShiftStory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:42:13.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "OpenedShiftConfiguration.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\OpenedShiftConfiguration.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Configuration\\OpenedShiftConfiguration.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\OpenedShiftConfiguration.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Configuration\\OpenedShiftConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:39:22.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240608083857_opened shift addition fix.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Migrations\\20240608083857_opened shift addition fix.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Migrations\\20240608083857_opened shift addition fix.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Migrations\\20240608083857_opened shift addition fix.cs",
+              "RelativeToolTip": "DatabaseLayer\\Migrations\\20240608083857_opened shift addition fix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:38:58.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OpenedShift.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\OpenedShift.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\OpenedShift.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\OpenedShift.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\OpenedShift.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:37:50.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimeControllerContext.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\TimeControllerContext.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\TimeControllerContext.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\TimeControllerContext.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\TimeControllerContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T13:52:23.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TradePointConfiguration.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
               "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
               "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
               "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Configuration\\TradePointConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T14:52:17.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TradePoint.cs",
-              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
-              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\TradePoint.cs",
-              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
-              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\TradePoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
+              "DocumentIndex": 12,
+              "Title": "20240608083806_opened shift addition.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Migrations\\20240608083806_opened shift addition.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Migrations\\20240608083806_opened shift addition.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Migrations\\20240608083806_opened shift addition.cs",
+              "RelativeToolTip": "DatabaseLayer\\Migrations\\20240608083806_opened shift addition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:50:14.133Z",
+              "WhenOpened": "2024-06-08T08:38:28.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Gender.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Gender.cs",
               "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Gender.cs",
@@ -132,7 +229,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "TradePoint.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\TradePoint.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\TradePoint.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\TradePoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:50:14.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenderConfiguration.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\GenderConfiguration.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Configuration\\GenderConfiguration.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\GenderConfiguration.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Configuration\\GenderConfiguration.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:52:17.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Employee.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Employee.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:41:13.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccessesConfiguration.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\AccessesConfiguration.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Configuration\\AccessesConfiguration.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\AccessesConfiguration.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Configuration\\AccessesConfiguration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:00:25.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "EmployeeConfiguration.cs",
               "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Configuration\\EmployeeConfiguration.cs",
               "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Configuration\\EmployeeConfiguration.cs",
@@ -140,38 +289,24 @@
               "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Configuration\\EmployeeConfiguration.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:45:20.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Employee.cs",
-              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Employee.cs",
-              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Employee.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:41:13.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TimeControllerContext.cs",
-              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\TimeControllerContext.cs",
-              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\TimeControllerContext.cs",
-              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\TimeControllerContext.cs",
-              "RelativeToolTip": "DatabaseLayer\\Database\\TimeControllerContext.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABsAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T13:52:23.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T14:45:20.781Z"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Access.cs",
+              "DocumentMoniker": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Access.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\Database\\Models\\Access.cs",
+              "ToolTip": "D:\\Development\\internship\\api\\Database\\DatabaseLayer\\DatabaseLayer\\Database\\Models\\Access.cs",
+              "RelativeToolTip": "DatabaseLayer\\Database\\Models\\Access.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:01:32.358Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -21,4 +21,5 @@ namespace DatabaseLayer.Database.Models.Configuration
 
         }
     }
+
 }
