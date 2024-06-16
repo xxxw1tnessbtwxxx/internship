@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="250"
+        Width="400"
+        Height="250"
+        x:Class="ShiftManager.Views.AuthorizationPage"
+        Title="AuthorizationPage">
+    <Grid ColumnDefinitions="1*, 1*, 1*" Background="#292d3e">
+        
+        <StackPanel Grid.Column="1"
+                    Spacing="15"
+                    VerticalAlignment="Center"
+                    Width="200">
+            
+            <TextBox x:Name="LoginTextBox" Watermark="Enter your login..."/>            
+            <TextBox x:Name="PasswordTextBox" Watermark="Enter your password"
+                     PasswordChar="*"/>
+            <Button x:Name="AuthorizeBtn" 
+                    Click="AuthorizeBtn_OnClick" 
+                    Content="Authorize"
+                    HorizontalAlignment="Center"
+                    Width="270"
+                    HorizontalContentAlignment="Center"/>
+            
+        </StackPanel>
+        
+    </Grid>
+</Window>

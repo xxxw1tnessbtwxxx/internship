@@ -7,13 +7,13 @@ namespace DatabaseLayer.Database.Models.Configuration
     {
         public void Configure(EntityTypeBuilder<Gender> builder)
         {
-            builder.HasKey(g => g.Id);
-
+            builder.HasKey(g => g.ID);
             builder.HasMany(g => g.Employees)
                 .WithOne(e => e.Gender)
-                .HasForeignKey(e => e.GenderId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .HasForeignKey(e => e.GenderID)
+                .OnDelete(DeleteBehavior.SetNull);
         }
     }
+
 
 }

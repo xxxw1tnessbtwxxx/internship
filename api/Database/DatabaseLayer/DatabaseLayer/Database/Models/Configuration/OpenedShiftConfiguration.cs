@@ -9,12 +9,13 @@ namespace DatabaseLayer.Database.Models.Configuration
         {
             builder.HasKey(o => o.Id);
 
+            builder.HasOne(o => o.TradePoint)
+                .WithMany(t => t.OpenedShifts)
+                .HasForeignKey(o => o.TradePointID);
 
-            builder.HasOne(o => o.TradePoint);
-
-            builder.Property(o => o.OpenDate).HasColumnType("timestamp without time zone");
-            builder.Property(o => o.CloseDate).HasColumnType("timestamp without time zone");
+            builder.Property(o => o.OpenedDate).HasColumnType("timestamp without time zone");
         }
     }
+
 
 }

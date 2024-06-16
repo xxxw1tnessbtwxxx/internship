@@ -1,9 +1,14 @@
-﻿namespace DatabaseLayer.Database.Models
+﻿using System.Text.Json.Serialization;
+
+namespace DatabaseLayer.Database.Models
 {
     public class Gender
     {
-        public int Id { get; set; }
-        public string GenderName { get; set; } = string.Empty;
-        public virtual List<Employee>? Employees { get; set; } = [];
+        public int ID { get; set; }
+        public string? Name { get; set; }
+
+
+        [JsonIgnore]
+        public virtual List<Employee>? Employees { get; set; }
     }
 }

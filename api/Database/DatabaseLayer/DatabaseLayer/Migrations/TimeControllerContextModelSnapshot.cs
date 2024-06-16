@@ -28,29 +28,29 @@ namespace DatabaseLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("EmployeeId")
+                    b.Property<Guid>("EmployeeID")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("TradePointId")
+                    b.Property<Guid>("TradePointID")
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TradePointId");
+                    b.HasIndex("EmployeeID")
+                        .IsUnique();
 
-                    b.ToTable("Accesses");
+                    b.HasIndex("TradePointID");
+
+                    b.ToTable("Accesess");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.Employee", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("AccessId")
-                        .HasColumnType("uuid");
-
-                    b.Property<int?>("GenderId")
+                    b.Property<int>("GenderID")
                         .HasColumnType("integer");
 
                     b.Property<string>("Login")
@@ -73,33 +73,25 @@ namespace DatabaseLayer.Migrations
                     b.Property<string>("Surname")
                         .HasColumnType("text");
 
-                    b.Property<Guid?>("TradePointId")
-                        .HasColumnType("uuid");
+                    b.HasKey("ID");
 
-                    b.HasKey("Id");
-
-                    b.HasIndex("AccessId");
-
-                    b.HasIndex("GenderId");
-
-                    b.HasIndex("TradePointId");
+                    b.HasIndex("GenderID");
 
                     b.ToTable("Employees");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.Gender", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
 
-                    b.Property<string>("GenderName")
-                        .IsRequired()
+                    b.Property<string>("Name")
                         .HasColumnType("text");
 
-                    b.HasKey("Id");
+                    b.HasKey("ID");
 
                     b.ToTable("Genders");
                 });
@@ -110,99 +102,95 @@ namespace DatabaseLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<DateTime?>("CloseDate")
-                        .HasColumnType("timestamp with time zone");
+                    b.Property<DateTime>("OpenedDate")
+                        .HasColumnType("timestamp without time zone");
 
-                    b.Property<DateTime>("OpenDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("TradePointId")
+                    b.Property<Guid>("TradePointID")
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TradePointId");
+                    b.HasIndex("TradePointID");
 
                     b.ToTable("OpenedShifts");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.ShiftStory", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
                     b.Property<DateTime>("ComeDate")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
-                    b.Property<Guid>("EmployeeId")
+                    b.Property<Guid>("EmployeeID")
                         .HasColumnType("uuid");
 
                     b.Property<DateTime?>("LeaveDate")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
-                    b.Property<Guid>("TradePointId")
+                    b.Property<Guid>("TradePointID")
                         .HasColumnType("uuid");
 
-                    b.HasKey("Id");
+                    b.HasKey("ID");
 
-                    b.HasIndex("EmployeeId");
+                    b.HasIndex("EmployeeID");
 
-                    b.HasIndex("TradePointId");
+                    b.HasIndex("TradePointID");
 
                     b.ToTable("ShiftStories");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.TradePoint", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
+                    b.Property<string>("PointName")
                         .HasColumnType("text");
 
-                    b.HasKey("Id");
+                    b.HasKey("ID");
 
                     b.ToTable("TradePoints");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.Access", b =>
                 {
-                    b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
-                        .WithMany()
-                        .HasForeignKey("TradePointId")
+                    b.HasOne("DatabaseLayer.Database.Models.Employee", "Employee")
+                        .WithOne("Access")
+                        .HasForeignKey("DatabaseLayer.Database.Models.Access", "EmployeeID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
+                        .WithMany("Accesses")
+                        .HasForeignKey("TradePointID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employee");
 
                     b.Navigation("TradePoint");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.Employee", b =>
                 {
-                    b.HasOne("DatabaseLayer.Database.Models.Access", null)
-                        .WithMany("Employees")
-                        .HasForeignKey("AccessId");
-
                     b.HasOne("DatabaseLayer.Database.Models.Gender", "Gender")
                         .WithMany("Employees")
-                        .HasForeignKey("GenderId");
-
-                    b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
-                        .WithMany("Employees")
-                        .HasForeignKey("TradePointId");
+                        .HasForeignKey("GenderID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Gender");
-
-                    b.Navigation("TradePoint");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.OpenedShift", b =>
                 {
                     b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
-                        .WithMany()
-                        .HasForeignKey("TradePointId")
+                        .WithMany("OpenedShifts")
+                        .HasForeignKey("TradePointID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -213,13 +201,13 @@ namespace DatabaseLayer.Migrations
                 {
                     b.HasOne("DatabaseLayer.Database.Models.Employee", "Employee")
                         .WithMany()
-                        .HasForeignKey("EmployeeId")
+                        .HasForeignKey("EmployeeID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("DatabaseLayer.Database.Models.TradePoint", "TradePoint")
                         .WithMany()
-                        .HasForeignKey("TradePointId")
+                        .HasForeignKey("TradePointID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -228,9 +216,9 @@ namespace DatabaseLayer.Migrations
                     b.Navigation("TradePoint");
                 });
 
-            modelBuilder.Entity("DatabaseLayer.Database.Models.Access", b =>
+            modelBuilder.Entity("DatabaseLayer.Database.Models.Employee", b =>
                 {
-                    b.Navigation("Employees");
+                    b.Navigation("Access");
                 });
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.Gender", b =>
@@ -240,7 +228,9 @@ namespace DatabaseLayer.Migrations
 
             modelBuilder.Entity("DatabaseLayer.Database.Models.TradePoint", b =>
                 {
-                    b.Navigation("Employees");
+                    b.Navigation("Accesses");
+
+                    b.Navigation("OpenedShifts");
                 });
 #pragma warning restore 612, 618
         }

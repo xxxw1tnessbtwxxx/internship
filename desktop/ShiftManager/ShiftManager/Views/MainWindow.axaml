@@ -1,0 +1,73 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        Width="800"
+        Height="450"
+        x:Class="ShiftManager.MainWindow"
+        Title="ShiftManager"
+        SystemDecorations="None"
+        PointerPressed="InputElement_OnPointerPressed">
+
+        <Grid Background="#292d3e"
+              RowDefinitions="60, 1*"
+              ShowGridLines="False"
+              ColumnDefinitions="100, 1*, 100">
+                
+                
+                <!-- HEADER -->
+                <Grid Grid.Row="0" Grid.Column="2" 
+                      ShowGridLines="False"
+                      ColumnDefinitions="1*, 1*, 1*">
+                    
+                    <StackPanel Grid.Column="2" 
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Right"
+                                Orientation="Horizontal"
+                                Margin="0, 0, 50, 0"
+                                Spacing="15">
+                        
+                        <Button x:Name="HideBtn" 
+                                Background="DodgerBlue"
+                                Content="-"
+                                Foreground="Azure"
+                                Click="HideBtn_OnClick"/>
+                        
+                        <Button x:Name="CloseBtn"
+                                Background="Red"
+                                Content="X"
+                                Click="CloseBtn_OnClick"/>
+                        
+                    </StackPanel>
+                    
+                </Grid>
+                
+                <Grid Grid.Row="1" 
+                      Grid.Column="1" 
+                      ShowGridLines="True"
+                      RowDefinitions="70, 1* 70"
+                      ColumnDefinitions="100, 1*, 100">
+                        
+                        <TextBlock Grid.Row="0" 
+                                   Grid.Column="1"
+                                   Text="Привязанная точка продаж: object"
+                                   HorizontalAlignment="Right"
+                                   x:Name="TradePointName"/>
+                        
+                        <TextBlock Text="Смена закрыта"
+                                   x:Name="OpenedShiftTimer"
+                                   Foreground="White" 
+                                   Grid.ColumnSpan="2"/>
+                        <Image Grid.Row="1" Grid.Column="1" x:Name="QRCodeImageUI" Width="220" Height="220"/>
+                        <Button Grid.Column="1" 
+                                Grid.Row="2"
+                                x:Name="ShiftInterractorBtn"
+                                HorizontalAlignment="Center"
+                                Content="Открыть смену"
+                                Foreground="White"
+                                Click="Button_OnClick"/>
+                </Grid>
+                
+        </Grid>
+</Window>

@@ -7,14 +7,16 @@ namespace DatabaseLayer.Database.Models.Configuration
     {
         public void Configure(EntityTypeBuilder<TradePoint> builder)
         {
-            builder.HasKey(t => t.Id);
-
-            // Employee conf
-            builder.HasMany(t => t.Employees)
-                .WithOne(e => e.TradePoint)
-                .HasForeignKey(e => e.TradePointId)
+            builder.HasKey(t => t.ID);
+            builder.HasMany(t => t.Accesses)
+                .WithOne(a => a.TradePoint)
+                .HasForeignKey(a => a.TradePointID)
                 .OnDelete(DeleteBehavior.Cascade);
+
+
+         
         }
     }
+
 
 }

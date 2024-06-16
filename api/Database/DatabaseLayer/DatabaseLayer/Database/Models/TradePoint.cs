@@ -4,11 +4,14 @@ namespace DatabaseLayer.Database.Models
 {
     public class TradePoint
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
-        public string Name { get; set; } = string.Empty;
+        public Guid ID { get; set; } = Guid.NewGuid();
+
+        public string? PointName { get; set; }
 
         [JsonIgnore]
-        public virtual List<Employee>? Employees { get; set; }
+        public virtual List<Access>? Accesses { get; set; }
 
+        [JsonIgnore]
+        public virtual List<OpenedShift>? OpenedShifts { get; set; }
     }
 }

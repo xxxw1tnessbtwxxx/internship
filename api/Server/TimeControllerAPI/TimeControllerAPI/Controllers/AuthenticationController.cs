@@ -11,43 +11,23 @@ namespace TimeControllerAPI.Controllers
     public class AuthenticationController : ControllerBase
     {
 
-        [HttpGet("test")]
-        public ActionResult Get()
-        {
-
-            return Ok(new
-            {
-                work = "rabotaet"
-            });
-
-        }
-
+      
 
         [HttpPost("signin")]
         public ActionResult SignIn(SignInRequest request) 
         {
-            try
+            using (var ctx = new TimeControllerContext())
             {
-                using (var ctx = new TimeControllerContext())
+                try
                 {
-                    try
-                    {
-                        var employee = ctx.Employees.Where(x => x.Login == request.Login && x.Password == request.Password).Include(e => e.TradePoint).FirstOrDefault();
-                        return Ok(employee);
-                    }
-                    catch (Exception ex)
-                    {
-
-                        return BadRequest(ex.Message);
-
-                    }
+                    var employee = ctx.Employees.Where(x => x.Login == request.Login && x.Password == request.Password).Include(e => e.Gender).Include(e => e.Access).ThenInclude(a => a.TradePoint).FirstOrDefault();
+                    return Ok(employee);
                 }
-            }
-            catch (Exception ex)
-            {
-
-                return BadRequest(ex.Message);
-
+                catch(Exception ex)
+                {
+                    return BadRequest(ex.Message);
+                }
+                
             }
         }
 

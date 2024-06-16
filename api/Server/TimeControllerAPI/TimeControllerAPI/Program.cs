@@ -20,10 +20,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapGet("checker", () =>
-{
-    return "asd";
-});
 
 app.UseHttpsRedirection();
 

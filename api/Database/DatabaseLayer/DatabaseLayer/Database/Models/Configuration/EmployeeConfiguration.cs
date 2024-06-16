@@ -12,24 +12,18 @@ namespace DatabaseLayer.Database.Models.Configuration
     {
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
-            builder.HasKey(e => e.Id);
+            builder.HasKey(e => e.ID);
 
-
-            // Tradepoint conf
-            builder.HasOne(e => e.TradePoint)
-                .WithMany(t => t.Employees)
-                .HasForeignKey(e => e.TradePointId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-
-            // Gender conf
             builder.HasOne(e => e.Gender)
                 .WithMany(g => g.Employees)
-                .HasForeignKey(e => e.GenderId)
+                .HasForeignKey(e => e.GenderID)
                 .OnDelete(DeleteBehavior.Cascade);
 
             
+
         }
     }
+
+
 
 }

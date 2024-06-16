@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="ShiftManager/App.axaml" value="ShiftManager/ShiftManager.csproj" />
+        <entry key="ShiftManager/MainWindow.axaml" value="ShiftManager/ShiftManager.csproj" />
+        <entry key="ShiftManager/Views/AuthorizationPage.axaml" value="ShiftManager/ShiftManager.csproj" />
+        <entry key="ShiftManager/Views/MainWindow.axaml" value="ShiftManager/ShiftManager.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
