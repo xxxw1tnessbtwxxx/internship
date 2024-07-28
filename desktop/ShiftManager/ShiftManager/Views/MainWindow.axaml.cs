@@ -85,12 +85,7 @@ namespace ShiftManager
 
                 while (true)
                 {
-                    
-                    if (timerCts.IsCancellationRequested)
-                    {
-                        MessageBoxManager.GetMessageBoxStandard("Успешно", "Смена закрыта").ShowAsync();
-                        return;
-                    }
+                  
 
                     seconds += 1;
                     Dispatcher.UIThread.Invoke((Action)delegate

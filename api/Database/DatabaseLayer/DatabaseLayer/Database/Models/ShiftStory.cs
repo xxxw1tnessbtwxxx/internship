@@ -1,4 +1,6 @@
-﻿namespace DatabaseLayer.Database.Models
+﻿using System.Text.Json.Serialization;
+
+namespace DatabaseLayer.Database.Models
 {
     public class ShiftStory
     {
@@ -8,7 +10,9 @@
 
         public Guid TradePointID { get; set; }
         public virtual TradePoint? TradePoint { get; set; }
+        [JsonIgnore]
         public Guid EmployeeID { get; set; }
+        [JsonIgnore]
         public virtual Employee? Employee { get; set; }
 
     }

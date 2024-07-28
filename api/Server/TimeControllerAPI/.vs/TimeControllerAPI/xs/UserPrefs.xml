@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{150611D6-8223-4DA8-A2D2-4226B0A640B1}|http">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TimeControllerAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimeControllerAPI/Controllers/ShiftsController.cs">
+    <Files>
+      <File FileName="TimeControllerAPI/TimeControllerAPI.http" />
+      <File FileName="TimeControllerAPI/Program.cs" />
+      <File FileName="../../Database/DatabaseLayer/DatabaseLayer/Database/Models/ShiftStory.cs" />
+      <File FileName="TimeControllerAPI/Classes/EnterShiftRequest.cs" />
+      <File FileName="../../Database/DatabaseLayer/DatabaseLayer/Database/Models/Employee.cs" />
+      <File FileName="TimeControllerAPI/Controllers/ShiftsController.cs" Line="74" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TimeControllerAPI">
+            <Node name="DatabaseLayer" expanded="True">
+              <Node name="Database" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="TimeControllerAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ShiftsController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

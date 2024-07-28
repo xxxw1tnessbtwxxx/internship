@@ -39,9 +39,9 @@ class ViewController: UIViewController {
             
             APIManager.getEmployee(authRequest: AuthorizeRequest(login: login, password: password)) { employee in
                 CurrentData.employee = employee
-                
+                Router.navigator.pushMainMenu(from: self)
             }
-            Router.navigator.pushMainMenu(from: self)
+            
         }
     }
     

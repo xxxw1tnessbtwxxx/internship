@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0cf70e4-f240-446f-87dd-12b6df8fe207" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/Database/TimeControllerContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/Database/TimeControllerContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/bin/Debug/net8.0/DatabaseLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/bin/Debug/net8.0/DatabaseLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/bin/Debug/net8.0/DatabaseLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/bin/Debug/net8.0/DatabaseLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/DatabaseLayer.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/ref/DatabaseLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/ref/DatabaseLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/refint/DatabaseLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/Debug/net8.0/refint/DatabaseLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLayer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseLayer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/bin/Debug/net8.0/DatabaseLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/bin/Debug/net8.0/DatabaseLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/bin/Debug/net8.0/DatabaseLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/bin/Debug/net8.0/DatabaseLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/bin/Debug/net8.0/TimeControllerAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/bin/Debug/net8.0/TimeControllerAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/bin/Debug/net8.0/TimeControllerAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/bin/Debug/net8.0/TimeControllerAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/TimeControllerAPI.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/ref/TimeControllerAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/ref/TimeControllerAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/refint/TimeControllerAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/Debug/net8.0/refint/TimeControllerAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/TimeControllerAPI/TimeControllerAPI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/Debug/net8.0/ShiftManager.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../../desktop/ShiftManager/ShiftManager/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam.xcodeproj/project.xcworkspace/xcuserdata/w1tnessbtw.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam.xcodeproj/project.xcworkspace/xcuserdata/w1tnessbtw.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Classes/APIManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Classes/APIManager.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Views/LoginPage/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Views/LoginPage/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Views/MainMenu/MainMenu.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Views/MainMenu/MainMenu.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Views/MainMenu/TabBarViewControllers/HomeViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Views/MainMenu/TabBarViewControllers/HomeViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Views/MainMenu/TabBarViewControllers/SettingsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mobile/InternshipTeam/InternshipTeam/Views/MainMenu/TabBarViewControllers/SettingsViewController.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2iP6XEm7MeeGXIQaMGSbe59Z2IQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/w1tnessbtw/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/w1tnessbtw/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/w1tnessbtw/Library/Application Support/Symbols/src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0cf70e4-f240-446f-87dd-12b6df8fe207" name="Changes" comment="" />
+      <created>1719379904872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719379904872</updated>
+      <workItem from="1719379906793" duration="523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

@@ -13,15 +13,15 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShiftManager
-build_property.ProjectDir = D:\Development\internship\desktop\ShiftManager\ShiftManager\
+build_property.ProjectDir = /Users/w1tnessbtw/Desktop/internship/internship/desktop/ShiftManager/ShiftManager/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[D:/Development/internship/desktop/ShiftManager/ShiftManager/App.axaml]
+[/Users/w1tnessbtw/Desktop/internship/internship/desktop/ShiftManager/ShiftManager/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[D:/Development/internship/desktop/ShiftManager/ShiftManager/Views/AuthorizationPage.axaml]
+[/Users/w1tnessbtw/Desktop/internship/internship/desktop/ShiftManager/ShiftManager/Views/AuthorizationPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[D:/Development/internship/desktop/ShiftManager/ShiftManager/Views/MainWindow.axaml]
+[/Users/w1tnessbtw/Desktop/internship/internship/desktop/ShiftManager/ShiftManager/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

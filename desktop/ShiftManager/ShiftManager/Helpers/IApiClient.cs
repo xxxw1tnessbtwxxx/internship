@@ -16,7 +16,7 @@ public interface IAPIManager
             ServerCertificateCustomValidationCallback = ((message, certificate2, arg3, arg4) => true)
         });
 
-        client.BaseAddress = new Uri("https://localhost:7298/api/v1/");
+        client.BaseAddress = new Uri("http://localhost:5281/api/v1/");
         return client;
     }
     

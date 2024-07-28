@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TimeControllerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+399e1efdecd6b49c690e94b07a49e432b0bd4a3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ef4f85d8194615786687662b26e450c0a186df9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TimeControllerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TimeControllerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

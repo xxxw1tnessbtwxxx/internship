@@ -36,7 +36,7 @@ namespace DatabaseLayer.Database
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseNpgsql("Server=localhost;Username=postgres;Password=mysecretpassword;Database=timecontroller");
+            optionsBuilder.UseNpgsql("Server=localhost;Username=postgres;Password=123456;Database=timecontroller");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
